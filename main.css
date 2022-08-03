@@ -1,0 +1,172 @@
+.box {
+  width: 300px;
+  height: 465px;
+  background-color: #bebebe;
+  padding: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+  transition: box-shadow ease 0.5s;
+  margin-top: 130px;
+  background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+}
+
+.box:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.language {
+  width: 42px;
+  display: block;
+  margin-left: auto;
+}
+
+
+
+.result {
+  color: #fff;
+  text-align: center;
+}
+
+.explain {
+  color: #fff;
+  text-align: center;
+}
+
+.heading {
+  margin:  0px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.input1 {
+  color: #fff;
+  margin-top: 20px;
+  width: 150px;
+  background-color: #79CBCA;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid #77A1D3;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  outline: none;
+}
+
+.btn2 {
+  width: 50px;
+  color: #fff;
+  font-size: 15px;
+  padding: 3px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #5f2c82 0%, #49a09d  51%, #5f2c82  100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+}
+
+.btn2:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.language {
+  width: 50px;
+  color: #fff;
+  font-size: 15px;
+  padding: 3px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #5f2c82 0%, #49a09d  51%, #5f2c82  100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  margin-right: 10px;
+  outline: none;
+}
+
+.white {
+  color: black;
+}
+
+.language:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:active {
+  transform: scale(1.05);
+}
+
+.btn2:active {
+  transform: scale(1.05);
+}
+
+.btn {
+  width: 150px;
+  padding: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform ease 0.2s;
+  background-image: linear-gradient(to right, #5f2c82 0%, #49a09d  51%, #5f2c82  100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  display: block;
+}
+
+.input1::placeholder{
+  color: #fff;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.option {
+  color: #fff;
+}
+
+.option1 {
+  color: #fff;
+}
+
+.form2 {
+  display: flex;
+}
+
+.selection {
+  margin-top: 20px;
+  width: 155px;
+  background-color: #79CBCA;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 5px;
+  outline: none;
+  border: 2px solid #77A1D3;
+  border-radius: 10px;
+}
