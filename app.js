@@ -39,7 +39,7 @@ elForm.addEventListener('submit', function (event) {
 
   if (elSelection.value == 1){
     if (elInput.value < 30) {
-      elResult.textContent = 'Siz otmagan ekansiz!';
+      elResult.textContent = 'Sizda ball etarli emas!';
       return;
     } else if (elInput.value < 40) {
       elResult.textContent = 'Siz super kontraktga kirdingiz!';
@@ -53,7 +53,7 @@ elForm.addEventListener('submit', function (event) {
     } return;
   } else if (elSelection.value == 2){
     if (elInput.value < 30) {
-      elResult.textContent = 'Siz otmagan ekansiz!';
+      elResult.textContent = 'Sizda ball etarli emas!';
       return;
     } else if (elInput.value < 40) {
       elResult.textContent = 'Siz super kontraktga kirdingiz!';
@@ -67,7 +67,7 @@ elForm.addEventListener('submit', function (event) {
     } return;
 } else if (elSelection.value == 3){
   if (elInput.value < 40) {
-    elResult.textContent = 'Siz otmagan ekansiz!';
+    elResult.textContent = 'Sizda ball etarli emas!';
     return;
   } else if (elInput.value < 50) {
     elResult.textContent = 'Siz super kontraktga kirdingiz!';
